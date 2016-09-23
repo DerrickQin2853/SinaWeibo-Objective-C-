@@ -7,7 +7,9 @@
 //
 
 #import "DQTabBarController.h"
-
+#import "DQBaseNavigationController.h"
+#import "DQBaseTabBar.h"
+#import "DQHomeViewController.h"
 @interface DQTabBarController ()
 
 @end
@@ -16,22 +18,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    DQBaseTabBar *tabBar = [DQBaseTabBar new];
+    //KVC赋值
+    [self setValue:tabBar forKey:@"tabBar"];
+    
+    tabBar.composeBlock = ^{
+        NSLog(@"composeBlock Clicked!");
+    };
+    
+    //添加子控制器
+    [self addChildViewControllers];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)addChildViewControllers {
+    
+    [self addChildViewController:[[DQHomeViewController alloc]init] title:@"首页" imageName:@"tabbar_home"];
+    [self addChildViewController:[[DQHomeViewController alloc]init] title:@"消息" imageName:@"tabbar_message_center"];
+    [self addChildViewController:[[DQHomeViewController alloc]init] title:@"发现" imageName:@"tabbar_discover"];
+    [self addChildViewController:[[DQHomeViewController alloc]init] title:@"我" imageName:@"tabbar_profile"];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)addChildViewController:(UIViewController *)viewController title:(NSString *)title imageName:(NSString *)imageName{
+    //设置title
+    viewController.navigationItem.title = title;
+    viewController.tabBarItem.title = title;
+    //设置图片
+    UIImage *tabImage = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    viewController.tabBarItem.image = tabImage;
+    
+    UIImage *tabSelectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_selected",imageName]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    viewController.tabBarItem.selectedImage = tabSelectedImage;
+    
+    NSDictionary *attrDict = @{NSForegroundColorAttributeName:[UIColor orangeColor]};
+    
+    [viewController.tabBarItem setTitleTextAttributes:attrDict forState:UIControlStateSelected];
+    
+    [viewController.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -2)];
+    
+    viewController.tabBarItem.badgeValue = nil;
+    
+    DQBaseNavigationController *naviVC = [[DQBaseNavigationController alloc]initWithRootViewController:viewController];
+    
+    [self addChildViewController:naviVC];
 }
-*/
 
 @end

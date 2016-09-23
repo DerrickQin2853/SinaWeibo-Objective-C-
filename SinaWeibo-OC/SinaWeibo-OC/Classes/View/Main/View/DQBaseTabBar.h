@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DQBaseTabBar : UITabBar
-
+@property (nonatomic, copy) void(^composeBlock)();
 @end
