@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		84C5FFB21D941A840062EEA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FFB11D941A840062EEA3 /* main.m */; };
 		84C5FFB51D941A840062EEA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FFB41D941A840062EEA3 /* AppDelegate.m */; };
-		84C5FFB81D941A840062EEA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FFB71D941A840062EEA3 /* ViewController.m */; };
-		84C5FFBB1D941A840062EEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C5FFB91D941A840062EEA3 /* Main.storyboard */; };
 		84C5FFBD1D941A840062EEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C5FFBC1D941A840062EEA3 /* Assets.xcassets */; };
 		84C5FFC01D941A840062EEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C5FFBE1D941A840062EEA3 /* LaunchScreen.storyboard */; };
+		84F5DC631D94B11A00C95B57 /* DQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC621D94B11A00C95B57 /* DQTabBarController.m */; };
+		84F5DC661D94B13100C95B57 /* DQBaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC651D94B13100C95B57 /* DQBaseTabBar.m */; };
+		84F5DC691D94B15400C95B57 /* DQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC681D94B15400C95B57 /* DQBaseNavigationController.m */; };
+		84F5DC6C1D94B16A00C95B57 /* DQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC6B1D94B16A00C95B57 /* DQMessageViewController.m */; };
+		84F5DC6F1D94B19A00C95B57 /* DQProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC6E1D94B19A00C95B57 /* DQProfileViewController.m */; };
+		84F5DC721D94B1B000C95B57 /* DQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC711D94B1B000C95B57 /* DQHomeViewController.m */; };
+		84F5DC751D94B1CE00C95B57 /* DQDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC741D94B1CE00C95B57 /* DQDiscoverViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,23 @@
 		84C5FFB11D941A840062EEA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84C5FFB31D941A840062EEA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84C5FFB41D941A840062EEA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84C5FFB61D941A840062EEA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84C5FFB71D941A840062EEA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84C5FFBA1D941A840062EEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C5FFBC1D941A840062EEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C5FFBF1D941A840062EEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C5FFC11D941A840062EEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F5DC611D94B11A00C95B57 /* DQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQTabBarController.h; sourceTree = "<group>"; };
+		84F5DC621D94B11A00C95B57 /* DQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQTabBarController.m; sourceTree = "<group>"; };
+		84F5DC641D94B13100C95B57 /* DQBaseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBaseTabBar.h; sourceTree = "<group>"; };
+		84F5DC651D94B13100C95B57 /* DQBaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBaseTabBar.m; sourceTree = "<group>"; };
+		84F5DC671D94B15400C95B57 /* DQBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBaseNavigationController.h; sourceTree = "<group>"; };
+		84F5DC681D94B15400C95B57 /* DQBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBaseNavigationController.m; sourceTree = "<group>"; };
+		84F5DC6A1D94B16A00C95B57 /* DQMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQMessageViewController.h; sourceTree = "<group>"; };
+		84F5DC6B1D94B16A00C95B57 /* DQMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMessageViewController.m; sourceTree = "<group>"; };
+		84F5DC6D1D94B19A00C95B57 /* DQProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQProfileViewController.h; sourceTree = "<group>"; };
+		84F5DC6E1D94B19A00C95B57 /* DQProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQProfileViewController.m; sourceTree = "<group>"; };
+		84F5DC701D94B1B000C95B57 /* DQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQHomeViewController.h; sourceTree = "<group>"; };
+		84F5DC711D94B1B000C95B57 /* DQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQHomeViewController.m; sourceTree = "<group>"; };
+		84F5DC731D94B1CE00C95B57 /* DQDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQDiscoverViewController.h; sourceTree = "<group>"; };
+		84F5DC741D94B1CE00C95B57 /* DQDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQDiscoverViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +74,9 @@
 		84C5FFAF1D941A840062EEA3 /* SinaWeibo-OC */ = {
 			isa = PBXGroup;
 			children = (
+				84C5FFC71D94221E0062EEA3 /* Classes */,
 				84C5FFB31D941A840062EEA3 /* AppDelegate.h */,
 				84C5FFB41D941A840062EEA3 /* AppDelegate.m */,
-				84C5FFB61D941A840062EEA3 /* ViewController.h */,
-				84C5FFB71D941A840062EEA3 /* ViewController.m */,
-				84C5FFB91D941A840062EEA3 /* Main.storyboard */,
 				84C5FFBC1D941A840062EEA3 /* Assets.xcassets */,
 				84C5FFBE1D941A840062EEA3 /* LaunchScreen.storyboard */,
 				84C5FFC11D941A840062EEA3 /* Info.plist */,
@@ -77,6 +91,179 @@
 				84C5FFB11D941A840062EEA3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C5FFC71D94221E0062EEA3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFCB1D94221E0062EEA3 /* View */,
+				84C5FFC91D94221E0062EEA3 /* Tool */,
+				84C5FFC81D94221E0062EEA3 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84C5FFC81D94221E0062EEA3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		84C5FFC91D94221E0062EEA3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFCA1D94221E0062EEA3 /* Extension */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		84C5FFCA1D94221E0062EEA3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84C5FFCB1D94221E0062EEA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFD21D94221E0062EEA3 /* Main */,
+				84C5FFCF1D94221E0062EEA3 /* Home */,
+				84C5FFD51D94221E0062EEA3 /* Message */,
+				84C5FFCC1D94221E0062EEA3 /* Discover */,
+				84C5FFD81D94221E0062EEA3 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C5FFCC1D94221E0062EEA3 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFCD1D94221E0062EEA3 /* View */,
+				84C5FFCE1D94221E0062EEA3 /* ViewController */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		84C5FFCD1D94221E0062EEA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C5FFCE1D94221E0062EEA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84F5DC731D94B1CE00C95B57 /* DQDiscoverViewController.h */,
+				84F5DC741D94B1CE00C95B57 /* DQDiscoverViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		84C5FFCF1D94221E0062EEA3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFD01D94221E0062EEA3 /* View */,
+				84C5FFD11D94221E0062EEA3 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84C5FFD01D94221E0062EEA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C5FFD11D94221E0062EEA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84F5DC701D94B1B000C95B57 /* DQHomeViewController.h */,
+				84F5DC711D94B1B000C95B57 /* DQHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		84C5FFD21D94221E0062EEA3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFD31D94221E0062EEA3 /* View */,
+				84C5FFD41D94221E0062EEA3 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		84C5FFD31D94221E0062EEA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84F5DC641D94B13100C95B57 /* DQBaseTabBar.h */,
+				84F5DC651D94B13100C95B57 /* DQBaseTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C5FFD41D94221E0062EEA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84F5DC611D94B11A00C95B57 /* DQTabBarController.h */,
+				84F5DC621D94B11A00C95B57 /* DQTabBarController.m */,
+				84F5DC671D94B15400C95B57 /* DQBaseNavigationController.h */,
+				84F5DC681D94B15400C95B57 /* DQBaseNavigationController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		84C5FFD51D94221E0062EEA3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFD61D94221E0062EEA3 /* View */,
+				84C5FFD71D94221E0062EEA3 /* ViewController */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		84C5FFD61D94221E0062EEA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C5FFD71D94221E0062EEA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84F5DC6A1D94B16A00C95B57 /* DQMessageViewController.h */,
+				84F5DC6B1D94B16A00C95B57 /* DQMessageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		84C5FFD81D94221E0062EEA3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84C5FFD91D94221E0062EEA3 /* View */,
+				84C5FFDA1D94221E0062EEA3 /* ViewController */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		84C5FFD91D94221E0062EEA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C5FFDA1D94221E0062EEA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84F5DC6D1D94B19A00C95B57 /* DQProfileViewController.h */,
+				84F5DC6E1D94B19A00C95B57 /* DQProfileViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +292,7 @@
 		84C5FFA51D941A840062EEA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DQ;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Derrick_Qin;
 				TargetAttributes = {
@@ -139,7 +327,6 @@
 			files = (
 				84C5FFC01D941A840062EEA3 /* LaunchScreen.storyboard in Resources */,
 				84C5FFBD1D941A840062EEA3 /* Assets.xcassets in Resources */,
-				84C5FFBB1D941A840062EEA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C5FFB81D941A840062EEA3 /* ViewController.m in Sources */,
 				84C5FFB51D941A840062EEA3 /* AppDelegate.m in Sources */,
+				84F5DC751D94B1CE00C95B57 /* DQDiscoverViewController.m in Sources */,
+				84F5DC691D94B15400C95B57 /* DQBaseNavigationController.m in Sources */,
+				84F5DC6F1D94B19A00C95B57 /* DQProfileViewController.m in Sources */,
+				84F5DC661D94B13100C95B57 /* DQBaseTabBar.m in Sources */,
 				84C5FFB21D941A840062EEA3 /* main.m in Sources */,
+				84F5DC631D94B11A00C95B57 /* DQTabBarController.m in Sources */,
+				84F5DC721D94B1B000C95B57 /* DQHomeViewController.m in Sources */,
+				84F5DC6C1D94B16A00C95B57 /* DQMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84C5FFB91D941A840062EEA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84C5FFBA1D941A840062EEA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84C5FFBE1D941A840062EEA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "SinaWeibo-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DerrickQin.SinaWeibo-OC";
@@ -281,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "SinaWeibo-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DerrickQin.SinaWeibo-OC";
@@ -307,6 +494,7 @@
 				84C5FFC61D941A840062EEA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

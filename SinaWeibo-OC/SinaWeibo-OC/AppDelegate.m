@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DQTabBarController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +18,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    
+    DQTabBarController *tabBarController = [[DQTabBarController alloc]init];
+    
+    [self.window setRootViewController:tabBarController];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
