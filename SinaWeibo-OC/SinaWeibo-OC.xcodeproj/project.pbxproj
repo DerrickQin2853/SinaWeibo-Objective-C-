@@ -20,6 +20,8 @@
 		84F5DC751D94B1CE00C95B57 /* DQDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC741D94B1CE00C95B57 /* DQDiscoverViewController.m */; };
 		84F5DC781D94C31800C95B57 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC771D94C31800C95B57 /* UIBarButtonItem+Extension.m */; };
 		84F5DC7B1D94C60D00C95B57 /* DQTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC7A1D94C60D00C95B57 /* DQTempViewController.m */; };
+		84F5DC7E1D94CF7C00C95B57 /* DQSearchBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5DC7D1D94CF7C00C95B57 /* DQSearchBarButton.m */; };
+		84F5DCC21D94D7CE00C95B57 /* DQSearchBarButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F5DCC11D94D7CE00C95B57 /* DQSearchBarButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,9 @@
 		84F5DC771D94C31800C95B57 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		84F5DC791D94C60D00C95B57 /* DQTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQTempViewController.h; sourceTree = "<group>"; };
 		84F5DC7A1D94C60D00C95B57 /* DQTempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQTempViewController.m; sourceTree = "<group>"; };
+		84F5DC7C1D94CF7C00C95B57 /* DQSearchBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQSearchBarButton.h; sourceTree = "<group>"; };
+		84F5DC7D1D94CF7C00C95B57 /* DQSearchBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQSearchBarButton.m; sourceTree = "<group>"; };
+		84F5DCC11D94D7CE00C95B57 /* DQSearchBarButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DQSearchBarButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +164,9 @@
 		84C5FFCD1D94221E0062EEA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84F5DC7C1D94CF7C00C95B57 /* DQSearchBarButton.h */,
+				84F5DC7D1D94CF7C00C95B57 /* DQSearchBarButton.m */,
+				84F5DCC11D94D7CE00C95B57 /* DQSearchBarButton.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F5DCC21D94D7CE00C95B57 /* DQSearchBarButton.xib in Resources */,
 				84C5FFC01D941A840062EEA3 /* LaunchScreen.storyboard in Resources */,
 				84C5FFBD1D941A840062EEA3 /* Assets.xcassets in Resources */,
 			);
@@ -353,6 +362,7 @@
 				84F5DC6F1D94B19A00C95B57 /* DQProfileViewController.m in Sources */,
 				84F5DC781D94C31800C95B57 /* UIBarButtonItem+Extension.m in Sources */,
 				84F5DC7B1D94C60D00C95B57 /* DQTempViewController.m in Sources */,
+				84F5DC7E1D94CF7C00C95B57 /* DQSearchBarButton.m in Sources */,
 				84F5DC661D94B13100C95B57 /* DQBaseTabBar.m in Sources */,
 				84C5FFB21D941A840062EEA3 /* main.m in Sources */,
 				84F5DC631D94B11A00C95B57 /* DQTabBarController.m in Sources */,

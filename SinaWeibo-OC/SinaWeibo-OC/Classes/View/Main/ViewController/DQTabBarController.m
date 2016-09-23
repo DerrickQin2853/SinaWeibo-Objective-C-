@@ -10,6 +10,10 @@
 #import "DQBaseNavigationController.h"
 #import "DQBaseTabBar.h"
 #import "DQHomeViewController.h"
+#import "DQMessageViewController.h"
+#import "DQDiscoverViewController.h"
+#import "DQProfileViewController.h"
+
 @interface DQTabBarController ()
 
 @end
@@ -36,9 +40,9 @@
 - (void)addChildViewControllers {
     
     [self addChildViewController:[[DQHomeViewController alloc]init] title:@"首页" imageName:@"tabbar_home"];
-    [self addChildViewController:[[DQHomeViewController alloc]init] title:@"消息" imageName:@"tabbar_message_center"];
-    [self addChildViewController:[[DQHomeViewController alloc]init] title:@"发现" imageName:@"tabbar_discover"];
-    [self addChildViewController:[[DQHomeViewController alloc]init] title:@"我" imageName:@"tabbar_profile"];
+    [self addChildViewController:[[DQMessageViewController alloc]init] title:@"消息" imageName:@"tabbar_message_center"];
+    [self addChildViewController:[[DQDiscoverViewController alloc]init] title:@"发现" imageName:@"tabbar_discover"];
+    [self addChildViewController:[[DQProfileViewController alloc]init] title:@"我" imageName:@"tabbar_profile"];
 }
 
 - (void)addChildViewController:(UIViewController *)viewController title:(NSString *)title imageName:(NSString *)imageName{
